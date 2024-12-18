@@ -1,0 +1,70 @@
+<!DOCTYPEhtml>
+<htmllang="en">
+<head>
+<metacharset="UTF-8">
+<metaname="viewport"content="width=device-width,initial-scale=1.0">
+<title>PhotoGallery</title>
+<style>
+/*CSSforstylingthephotogallery*/
+body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+background-color:#f4f4f4;
+}
+.gallery-container{
+max-width:1200px;
+margin:20pxauto;
+padding:10px;
+background:#fff;
+border-radius:8px;
+box-shadow:04px8pxrgba(0,0,0,0.1);
+}
+.gallery-title{
+text-align:center;
+font-size:24px;
+margin-bottom:20px;
+color:#333;
+}
+.photo-grid{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+.photo-item{
+flex:11calc(50%-10px);/*Twoimagesperrow*/
+box-sizing:border-box;
+}
+.photo-itemimg{
+width:100%;
+height:auto;
+border-radius:4px;
+box-shadow:02px4pxrgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<divclass="gallery-container">
+<h1class="gallery-title"
+<divclass="photo-grid">
+<divclass="photo-item">
+<img src="images/gbenga4.png"alt="Image1">
+</div>
+<divclass="photo-item">
+<img src="images/gbenga12.png"alt="Image2">
+</div>
+<divclass="photo-item">
+<img src="images/coop.jpeg"alt="Image3">
+</div>
+<divclass="photo-item">
+<img src="images/gbenga3.png"alt="Image4">
+</div>
+<img src="images/studenttch.png"alt="Image3">
+</div>
+<divclass="photo-item">
+<img src="images/classmode.png"alt="Image4">
+<!--Addmorephoto-itemdivsasneeded-->
+</div>
+</div>
+</body>
+</html>
